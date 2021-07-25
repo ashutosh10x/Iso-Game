@@ -1,0 +1,263 @@
+import React from "react";
+
+export default class Loader extends React.Component {
+    render() {
+        let circleLoaderColor = this.props.color;
+        let size = this.props.size;
+        return (
+            <svg
+                style={{
+                    margin: "auto",
+                    background: "none",
+                    display: "block",
+                    shapeRendering: "auto"
+                }}
+                width={size}
+                height={size}
+                viewBox="0 0 100 100"
+                preserveAspectRatio="xMidYMid"
+            >
+                <g transform="rotate(0 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.5360623781676412s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(30 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.48732943469785567s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(60 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.4385964912280701s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(90 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.3898635477582845s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(120 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.34113060428849895s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(150 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.2923976608187134s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(180 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.24366471734892783s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(210 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.19493177387914226s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(240 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.1461988304093567s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(270 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.09746588693957113s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(300 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="-0.048732943469785565s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+                <g transform="rotate(330 50 50)">
+                    <rect
+                        x="47"
+                        y="24"
+                        rx="3"
+                        ry="3"
+                        width="6"
+                        height="12"
+                        fill={circleLoaderColor}
+                    >
+                        <animate
+                            attributeName="opacity"
+                            values="1;0"
+                            keyTimes="0;1"
+                            dur="0.5847953216374269s"
+                            begin="0s"
+                            repeatCount="indefinite"
+                        ></animate>
+                    </rect>
+                </g>
+            </svg>
+        );
+    }
+}
