@@ -4,7 +4,7 @@ import Interpreter from 'js-interpreter';
 
 import '../../blockly/generators/index.js';
 import '../../blockly/blocks/index.js';
-import InterfaceGui from './InterfaceGui';
+import InterfaceGui from './InterfaceGuide';
 import BlocklyTop from '../Blockly';
 
 import Styles from './styles';
