@@ -4,9 +4,9 @@ import Interpreter from 'js-interpreter';
 
 import '../../blockly/generators/index.js';
 import '../../blockly/blocks/index.js';
-
-import BlocklyTop from '../Blockly';
 import InterfaceGui from './InterfaceGui';
+import BlocklyTop from '../Blockly';
+
 import Styles from './styles';
 
 const toolboxXml = `
